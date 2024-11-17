@@ -4,12 +4,12 @@
   justify-content: space-between;
   align-items: center;
   padding: 15px 30px;
-  background-color: #9da9b4;
+  background-color: #514d4d;
   color: #fff;
 }
 
 .logo img {
-  max-height: 50px;
+  max-height: 100px;
 }
 
 .nav-links {
@@ -23,6 +23,7 @@
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s;
+  font-size: 22px;
 }
 
 .nav-links a:hover {
