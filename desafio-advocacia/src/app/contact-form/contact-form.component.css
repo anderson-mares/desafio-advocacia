@@ -1,14 +1,24 @@
-/* contact-form.component.css */
 .contact-form {
   display: flex;
   flex-direction: column;
   gap: 15px;
-  max-width: 500px;
+  max-width: 800px;
   margin: 0 auto;
+  padding: 30px;
+  text-align: center;
+}
+
+.contact-form .title {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
 }
 
 .contact-form label {
   font-weight: bold;
+  text-align: left;
+  display: block;
+  /* Garante alinhamento à esquerda */
 }
 
 .contact-form input,
@@ -20,14 +30,20 @@
 }
 
 .contact-form button {
-  padding: 10px 15px;
+  padding: 5px 10px;
+  /* Reduz tamanho do botão */
+  font-size: 0.9rem;
+  /* Diminui o tamanho da fonte */
+  width: 100px;
+  /* Define uma largura fixa */
   background-color: #333;
   color: #fff;
   border: none;
   border-radius: 5px;
-  font-size: 1rem;
   cursor: pointer;
   transition: background-color 0.3s;
+  align-self: center;
+  /* Centraliza o botão */
 }
 
 .contact-form button:hover {
