@@ -5,6 +5,7 @@ import { HeaderComponent } from './header/header.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { ContactFormComponent } from './contact-form/contact-form.component';
 import { AboutUsComponent } from './about-us/about-us.component';
+import { FooterComponent } from "./footer/footer.component";
 
 @Component({
   selector: 'app-root',
@@ -16,7 +17,8 @@ import { AboutUsComponent } from './about-us/about-us.component';
     CarouselComponent,
     ContactFormComponent,
     AboutUsComponent,
-  ],
+    FooterComponent
+],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
 })
