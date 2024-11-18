@@ -15,7 +15,9 @@ export class ContactFormComponent {
   message: string = '';
 
   onSubmit() {
-    // Exibe uma mensagem no console apenas como exemplo
-    console.log('Formulário enviado:', this.name, this.email, this.message);
+    if (this.name && this.email && this.message) {
+      console.log('Formulário enviado:', this.name, this.email, this.message);
+      alert('Formulário enviado com sucesso!');
+    }
   }
 }
