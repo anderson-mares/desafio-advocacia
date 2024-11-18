@@ -1,5 +1,14 @@
-<!-- about-us.component.html -->
-<section class="about-us">
+<div class="about-us">
   <h2>Sobre Nós</h2>
-  <p>Com mais de 20 anos de experiência, nossa advocacia está comprometida em oferecer soluções jurídicas eficazes e personalizadas para nossos clientes. Nosso objetivo é fornecer suporte jurídico com excelência e ética, protegendo os interesses e os direitos de nossos clientes.</p>
-</section>
+  <p>Conheça nossa equipe de advogados dedicados a oferecer o melhor serviço jurídico.</p>
+
+  <div class="gallery">
+    <div class="gallery-item" *ngFor="let member of team">
+      <img [src]="member.image" [alt]="member.name" />
+      <div class="overlay">
+        <h3>{{ member.name }}</h3>
+        <p>{{ member.description }}</p>
+      </div>
+    </div>
+  </div>
+</div>
