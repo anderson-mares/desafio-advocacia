@@ -12,17 +12,20 @@ export class AboutUsComponent {
   team = [
     {
       name: 'Dr. João Silva',
-      description: 'Especialista em Direito Empresarial.',
+      description:
+        'Profissional altamente capacitado em Direito Empresarial, com ampla experiência no suporte jurídico a empresas de diferentes portes e segmentos.',
       image: 'assets/joao.jpg',
     },
     {
       name: 'Dra. Maria Oliveira',
-      description: 'Especialista em Direito Civil.',
+      description:
+        'Advogada com sólida formação e vasta experiência em Direito Civil, especializado em resolução de conflitos patrimoniais, relações contratuais e responsabilidade civil.',
       image: 'assets/maria.jpg',
     },
     {
       name: 'Dr. Carlos Souza',
-      description: 'Especialista em Direito Penal.',
+      description:
+        'Advogado renomado no campo do Direito Penal, com ampla experiência na defesa de clientes em casos criminais de alta complexidade. Possui domínio sobre a legislação penal e processual penal.',
       image: 'assets/carlos.jpg',
     },
   ];
