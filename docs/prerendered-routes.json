@@ -1,0 +1,9 @@
+{
+  "routes": [
+    "/carousel",
+    "/contato",
+    "/faq",
+    "/footer",
+    "/sobre-nos"
+  ]
+}
